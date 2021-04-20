@@ -6,7 +6,7 @@ import { Home } from "./pages/home";
 import { Contacto } from "./pages/contacto";
 import { Basico } from "./pages/Basico";
 import { Medio } from "./pages/medio";
-import { Premiun } from "./pages/Premiun";
+import { Premium } from "./pages/Premium";
 import { Demo } from "./pages/demo";
 import { Single } from "./pages/single";
 import injectContext from "./store/appContext";
@@ -36,7 +36,7 @@ const Layout = () => {
 							<h1>Not found!</h1>
 						</Route>
 					</Switch>
-					<Premiun />
+					<Premium />
 					<Medio />
 					<Basico />
 					<Contacto />

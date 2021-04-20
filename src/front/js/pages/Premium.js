@@ -2,12 +2,13 @@ import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import { Context } from "../store/appContext";
 import Carousel from "react-bootstrap/Carousel";
+import "../../styles/Premium.scss";
 
-export const Medio = () => {
+export const Premium = () => {
 	const { store, actions } = useContext(Context);
 	return (
 		<div className="text-center mt-5">
-			<h1 className="text-primary">Paquete Medio</h1>
+			<h1 className="text-primary">Paquete Premiun</h1>
 			<div>
 				<Carousel fade>
 					<Carousel.Item>
@@ -17,32 +18,32 @@ export const Medio = () => {
 							alt="First slide"
 						/>
 						<Carousel.Caption>
-							<h3>First slide label</h3>
-							<p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+							<h3>Premiun</h3>
+							<p>Disfruta al maximo</p>
 						</Carousel.Caption>
 					</Carousel.Item>
 					<Carousel.Item>
 						<img
 							className="d-block w-100"
-							src="https://p4.wallpaperbetter.com/wallpaper/105/2/530/the-sky-clouds-balls-joy-wallpaper-preview.jpg"
+							src="https://www.roccotroyani.com/wp-content/uploads/2018/11/blog01.jpg"
 							alt="Second slide"
 						/>
 
 						<Carousel.Caption>
-							<h3>Second slide label</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							<h3>Premiun</h3>
+							<p>El mejor paquete de eventos</p>
 						</Carousel.Caption>
 					</Carousel.Item>
 					<Carousel.Item>
 						<img
 							className="d-block w-100"
-							src="https://s1.best-wallpaper.net/wallpaper/m/1809/Colorful-balloons-clouds-sky_m.webp"
+							src="https://www.torrerosa.com/wp-content/uploads/2019/11/CartaCocteles2019.jpg"
 							alt="Third slide"
 						/>
 
 						<Carousel.Caption>
-							<h3>Third slide label</h3>
-							<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+							<h3>Premium</h3>
+							<p>La mejor experiencia</p>
 						</Carousel.Caption>
 					</Carousel.Item>
 				</Carousel>
@@ -50,19 +51,28 @@ export const Medio = () => {
 					<p className="text-center mt-5">
 						<ul>
 							<li>
+								<em>Bocadillos</em>
+							</li>
+							<li>
 								<em>Plato fuerte, ensalada proteina y carbohidrato</em>
 							</li>
 							<li>
-								<em>Bebidas naturales</em>
+								<em>Bebidas naturales y alcohlica</em>
 							</li>
 							<li>
-								<em>Postre:Cheesecake o Tres leches</em>
+								<em>Postre:Tiramisu, Cheesecake o Alfajores</em>
 							</li>
 							<li>
 								<em>Decoracion</em>
 							</li>
 							<li>
-								<em>Mesas, Sillas, Manteles y centros de mesa</em>
+								<em>Mesas, Sillas, Manteles</em>
+							</li>
+							<li>
+								<em>Evento tematizado</em>
+							</li>
+							<li>
+								<em>Recuerdos del evento</em>
 							</li>
 							<li>
 								<em>DJ</em>
