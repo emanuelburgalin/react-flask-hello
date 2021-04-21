@@ -6,7 +6,7 @@ import Carousel from "react-bootstrap/Carousel";
 export const Medio = () => {
 	const { store, actions } = useContext(Context);
 	return (
-		<div className="text-center mt-5">
+		<div className="container text-center mt-5">
 			<h1 className="text-primary">Paquete Medio</h1>
 			<div>
 				<Carousel fade>
@@ -17,8 +17,8 @@ export const Medio = () => {
 							alt="First slide"
 						/>
 						<Carousel.Caption>
-							<h3>First slide label</h3>
-							<p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+							<h3>Medio</h3>
+							<p />
 						</Carousel.Caption>
 					</Carousel.Item>
 					<Carousel.Item>

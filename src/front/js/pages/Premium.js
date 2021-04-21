@@ -2,12 +2,11 @@ import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import { Context } from "../store/appContext";
 import Carousel from "react-bootstrap/Carousel";
-import "../../styles/Premium.scss";
 
 export const Premium = () => {
 	const { store, actions } = useContext(Context);
 	return (
-		<div className="text-center mt-5">
+		<div className="container text-center mt-5">
 			<h1 className="text-primary">Paquete Premiun</h1>
 			<div>
 				<Carousel fade>
