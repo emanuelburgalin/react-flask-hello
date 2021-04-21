@@ -4,8 +4,6 @@ import ScrollToTop from "./component/scrollToTop";
 
 import { Home } from "./pages/home";
 import { Contacto } from "./pages/contacto";
-import { Medio } from "./pages/medio";
-import { Premium } from "./pages/Premium";
 import { Servicios } from "./pages/servicios";
 import { Demo } from "./pages/demo";
 import { Single } from "./pages/single";
@@ -38,8 +36,6 @@ const Layout = () => {
 						</Route>
 					</Switch>
 					<Servicios />
-					<Premium />
-					<Medio />
 					<Basico />
 					<Contacto />
 					<Footer />
