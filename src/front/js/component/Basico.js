@@ -8,7 +8,10 @@ export function Basico(props) {
 	const { store, actions } = useContext(Context);
 	return (
 		<div className="container text-center mt-5">
-			<h1 className="text-primary">{props.name}</h1>
+			<h1 className="text-primary">
+				Basico
+				{props.name}
+			</h1>
 			<div>
 				<Carousel fade>
 					<Carousel.Item>

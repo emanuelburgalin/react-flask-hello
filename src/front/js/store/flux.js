@@ -1,19 +1,6 @@
 const getState = ({ getStore, getActions, setStore }) => {
 	return {
-		store: {
-			paquetes: [
-				{
-					name: "Paque basico",
-					linea_1: "Plato fuerte, ensalada proteina y carbohidrato",
-					linea_2: "	Bebidas naturales",
-					linea_3: "Postre:Cheesecake o Tres leches",
-					linea_4: "Decoracion",
-					linea_5: "Mesas, Sillas, Manteles y centros de mesa",
-					linea_6: "DJ",
-					linea_7: "Cubre la totalidad del evento"
-				}
-			]
-		},
+		store: {},
 		actions: {
 			// Use getActions to call a function within a fuction
 			exampleFunction: () => {

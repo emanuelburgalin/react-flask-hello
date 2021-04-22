@@ -4,7 +4,6 @@ import ScrollToTop from "./component/scrollToTop";
 
 import { Home } from "./pages/home";
 import { Contacto } from "./pages/contacto";
-import { Servicios } from "./pages/servicios";
 import { Demo } from "./pages/demo";
 import { Single } from "./pages/single";
 import injectContext from "./store/appContext";
@@ -35,9 +34,8 @@ const Layout = () => {
 							<h1>Not found!</h1>
 						</Route>
 					</Switch>
-					<Servicios />
-					<Basico />
 					<Contacto />
+					<Basico />
 					<Footer />
 				</ScrollToTop>
 			</BrowserRouter>
