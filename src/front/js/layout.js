@@ -32,6 +32,7 @@ const Layout = () => {
 						<Route />
 					</Switch>
 					<Contacto />
+					<Basico />
 					<Footer />
 				</ScrollToTop>
 			</BrowserRouter>

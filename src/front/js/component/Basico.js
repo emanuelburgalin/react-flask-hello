@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 import { Context } from "../store/appContext";
 import Carousel from "react-bootstrap/Carousel";
+import "../../styles/Basico.scss";
 
 export function Basico(props) {
 	const { store, actions } = useContext(Context);
