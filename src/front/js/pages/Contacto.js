@@ -1,15 +1,9 @@
 import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import { Context } from "../store/appContext";
-import Form from "react-bootstrap/Form";
-import Button from "react-bootstrap/Button";
-import Col from "react-bootstrap/Col";
-import Card from "react-bootstrap/Card";
-import CardDeck from "react-bootstrap/CardDeck";
-import Carousel from "react-bootstrap/Carousel";
-import "../../styles/Prueba.scss";
+import "../../styles/Contacto.scss";
 
-export const Prueba = () => {
+export const Contacto = () => {
 	const { store, actions } = useContext(Context);
 	return (
 		<div className="container text-center mt-5">

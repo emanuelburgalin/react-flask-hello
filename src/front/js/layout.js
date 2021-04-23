@@ -3,10 +3,9 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import ScrollToTop from "./component/scrollToTop";
 
 import { Home } from "./pages/home";
-import { Contacto } from "./pages/contacto";
-import { Prueba } from "./pages/Prueba";
 import { Demo } from "./pages/demo";
 import { Single } from "./pages/single";
+import { Contacto } from "./pages/Contacto";
 import injectContext from "./store/appContext";
 
 import { Navbar } from "./component/navbar";
@@ -32,7 +31,7 @@ const Layout = () => {
 						</Route>
 						<Route />
 					</Switch>
-					<Prueba />
+					<Contacto />
 					<Footer />
 				</ScrollToTop>
 			</BrowserRouter>
