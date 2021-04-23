@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import { Context } from "../store/appContext";
 import Carousel from "react-bootstrap/Carousel";
+import "../../styles/Prueba.scss";
 
 export const Servicios = () => {
 	const { store, actions } = useContext(Context);

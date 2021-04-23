@@ -68,11 +68,7 @@ export const Contacto = () => {
 					</Card>
 					<Card className="border border-white">
 						<div className="container text-center mt-5">
-							<img
-								src="http://assets.stickpng.com/images/5a452598546ddca7e1fcbc80.png"
-								width="100"
-								height="100"
-							/>
+							<img src="https://img.icons8.com/small/452/secured-letter.png" width="100" height="100" />
 						</div>
 						<Card.Body>
 							<Card.Title>Llamanos</Card.Title>
