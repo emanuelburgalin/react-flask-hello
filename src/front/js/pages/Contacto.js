@@ -40,7 +40,7 @@ export const Contacto = () => {
 									height="100"
 								/>
 							</div>
-							<h4 className="text-uppercase m-0 text-white">Llamanos</h4>
+							<h4 className="text-uppercase m-0 text-dark">Llamanos</h4>
 							<hr className="my-4" />
 							<div className="small text-black-50">
 								Llámenos sin costo desde su celular al operador 800-000-09378
@@ -54,7 +54,7 @@ export const Contacto = () => {
 									height="100"
 								/>
 							</div>
-							<h4 className="text-uppercase m-0 text-white">Email</h4>
+							<h4 className="text-uppercase m-0 text-dark">Email</h4>
 							<hr className="my-4" />
 							<div className="small text-black-50">
 								<a href="#!">CateringServices.com</a>
@@ -64,7 +64,7 @@ export const Contacto = () => {
 							<div className="container text-center mt-5">
 								<img src="https://img.icons8.com/small/452/whatsapp.png" width="100" height="100" />
 							</div>
-							<h4 className="text-uppercase m-0 text-white">WhatsApp</h4>
+							<h4 className="text-uppercase m-0 text-dark">WhatsApp</h4>
 							<hr className="my-4" />
 							<div className="small text-black-50">
 								Contáctenos vía WhatsApp al +506 9081-1199, atención las 24 horas.
